@@ -11,7 +11,7 @@ interface User {
   is_active: boolean;
 }
 
-const UserPage: React.FC = () => {
+const UsersPage: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -240,4 +240,4 @@ const UserPage: React.FC = () => {
   );
 };
 
-export default UserPage;
+export default UsersPage;
