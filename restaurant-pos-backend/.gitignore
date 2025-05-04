@@ -1,0 +1,30 @@
+# Entorno virtual de Python
+venv/
+
+# Variables de entorno
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Configuración de IDEs / editores
+.vscode/
+.idea/
+*.swp
+
+# Caché de Alembic en versiones
+alembic/versions/__pycache__/
+
+# Archivos de bases de datos locales (si aplican)
+*.db
+*.sqlite3
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
